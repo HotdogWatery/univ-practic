@@ -44,7 +44,7 @@ int main() {
     cin >> k;
     
 
-    cout << "\nНачальное расположение (автоматически сгенерированные веса):" << endl;
+    cout << "\nНачальное расположение:" << endl;
     printWeights(weights);
     
     for (int hour = 1; hour <= k; hour++) {
